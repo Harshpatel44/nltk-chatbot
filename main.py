@@ -57,7 +57,7 @@ def entity(a,intent):
 
 
 
-text=raw_input("input":)
+text=raw_input("input:")
 words=word_tokenize(text)           #tokenizing
 stop_words=set(stopwords.words("english"))
 a=[]
