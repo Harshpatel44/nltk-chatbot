@@ -40,8 +40,8 @@ def entity(a,intent):
     try:
         #print(type(checked))
         #print(checked[-1])
-        #if(int(checked[-1])==1):
-        return checked                  #IF we get in last data
+        if(int(checked[-1])==1):
+            return checked                  #IF we get in last data
     except TypeError :
         tagged=nltk.pos_tag(a)
         list_intents=[]
@@ -57,7 +57,7 @@ def entity(a,intent):
 
 
 
-text=raw_input()
+text=raw_input("input":)
 words=word_tokenize(text)           #tokenizing
 stop_words=set(stopwords.words("english"))
 a=[]
