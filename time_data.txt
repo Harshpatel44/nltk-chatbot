@@ -1,0 +1,3 @@
+Asia/Kolkata
+America/Chicago
+Asia/Kathmandu
